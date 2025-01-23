@@ -1,0 +1,41 @@
+.chat{
+    background-image: url(https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/chatbg.png);
+    color: aliceblue;
+    width: 300px;
+    height: 380px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 12px;
+}
+.top{
+    width: 300px;
+    background-color: #303F48;
+    text-align: center;
+    height: 50px;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    margin-bottom: 35px;
+}
+.right{
+    background-color: #2BA2EE;
+    height: 30px;
+    display: flex;
+    justify-content:flex-end; 
+    align-items: center;
+    margin: 10px 10px 10px 10px;
+    border-radius: 5px 5px 0 5px;
+    padding-right: 5px;
+}
+.left{
+    background-color: #51606B;
+    height: 30px;
+    display: flex;
+    justify-content:flex-start; 
+    align-items: center;
+    margin: 0 10px 0 10px;
+    border-radius: 5px 5px 5px 0;
+    padding-left: 5px;
+}
+.hello{
+    margin-top: 10px;
+}
